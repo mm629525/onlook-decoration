@@ -1,0 +1,15 @@
+<button plain class="header" disabled="{{disabled}}" hover-class="none" open-type="getUserInfo" bindgetuserinfo="login">
+    <avatar size="150" src="{{coverPath}}"></avatar>
+    <txt margin="0 0 -30 0" color="#fff" size="30">{{remarkName}}</txt>
+</button>
+<flex height="80" padding="0 30" divider>
+    <img height="44" width="44" src="/img/icon-project.png"></img>
+    <txt margin="0 0 0 20" color="#000">我的装修</txt>
+</flex>
+<flex horizontal="center" padding="45 0 45 0" col>
+
+    <avatar size="200" src="http://t2.hddhhn.com/uploads/tu/201707/200/9.jpg"></avatar>
+    <txt margin="20 0 10 0" size="30">您还没有开始装修哦~</txt>
+    <txt size="24" color="#999">找到心仪的装修公司，他将邀请您加入装修小分队~</txt>
+</flex>
+<footer></footer>

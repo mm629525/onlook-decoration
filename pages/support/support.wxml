@@ -1,0 +1,17 @@
+<flex horizontal="center" margin="0 0 24 0" padding="50 0">
+  <img src="http://api.tzzb.myzzbao.com/img/minCode.jpg" height="400" width="400"></img>
+</flex>
+<flex padding="0 0 0 32" col vertical="stretch">
+  <flex horizontal="between" height="100" divider padding="0 32 0 0" nowrap bindmytap="callMobile">
+    <txt size="32">咨询电话</txt>
+    <txt size="32" color="#999999">{{supportInfo.mobile}}</txt>
+  </flex>
+  <flex horizontal="between" height="100" divider padding="0 32 0 0" nowrap>
+    <txt size="32">咨询QQ</txt>
+    <txt size="32" margin="0 0 0 20" color="#999999">{{supportInfo.qq}}</txt>
+  </flex>
+  <flex horizontal="between" height="100" padding="0 32 0 0" nowrap>
+    <txt size="32">邮箱</txt>
+    <txt size="32" color="#999999">{{supportInfo.email}}</txt>
+  </flex>
+</flex>

@@ -1,0 +1,4 @@
+<view class="omit" space="{{space?'nbsp':'false'}}" style="font-size:{{size}}rpx; {{width>0?'max-width:'+width+'rpx;':''}}-webkit-line-clamp:{{multi}}; color:{{color}}; font-weight:{{bold}};{{marginStr===''?'':'margin:'+marginStr+';'}} {{paddingStr===''?'':'padding:'+paddingStr+';'}} {{lineHeight>0?'line-height:'+lineHeight+'rpx;':''}} text-align:{{align}};"
+  bindtap="onTap" hidden="{{isHide}}">
+  <slot></slot>
+</view>

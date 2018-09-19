@@ -1,0 +1,7 @@
+<block wx:if="{{url}}">
+  <navigator url="{{url}}" open-type="{{type}}" hover-class="none" class="flex {{col?'col':''}} {{row}} {{column}} {{nowrap?'nowrap':''}} {{divider?'divider':''}}"
+    style="{{height>0?'height:'+height+'rpx;':''}} {{width>0?'width:'+width+'rpx;':''}} {{marginStr===''?'':'margin:'+marginStr+';'}} {{paddingStr===''?'':'padding:'+paddingStr+';'}} {{radiusStr===''?'':'border-radius:'+radiusStr+';'}} background-color:{{bgColor}};opacity: {{opacity}};"
+    hidden="{{isHide}}">
+    <slot></slot>
+  </navigator>
+</block>

@@ -1,0 +1,9 @@
+.avatar {
+  border-radius: 50%;
+}
+
+.img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

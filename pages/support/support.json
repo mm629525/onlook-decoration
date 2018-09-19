@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "关于嗨装",
+  "usingComponents": {
+    "flex": "/components/flex/flex",
+    "txt": "/components/txt/txt",
+    "img": "/components/img/img"
+  }
+}

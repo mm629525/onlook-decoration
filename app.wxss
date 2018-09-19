@@ -1,0 +1,87 @@
+@import 'fonts.wxss';
+
+page {
+  background-color: rgb(240, 240, 240);
+  color: #333333;
+  font-size: 30rpx;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.fullheight {
+  height: 100vh;
+}
+
+.placeholder {
+  color: #bcbcbc;
+  font-size: 28rpx;
+}
+
+.icon-yen {
+  font-size: 20rpx;
+}
+
+.icon-trash {
+  font-size: 28rpx;
+  color: #bcbcbc;
+}
+
+.icon-trash-lg {
+  font-size: 34rpx;
+  color: #666666;
+}
+
+.icon-angle {
+  font-size: 36rpx;
+  color: #bcbcbc;
+}
+
+.icon-sort-asc {
+  font-size: 20rpx;
+  color: #666666;
+  height: 10rpx;
+}
+
+.icon-sort-desc {
+  font-size: 20rpx;
+  color: #666666;
+  margin-top: -8rpx;
+}
+
+.icon-sort-active {
+  color: #15d1a5;
+}
+
+.icon-times-circle {
+  font-size: 32rpx;
+  color: #ccc;
+}
+
+.icon-star {
+  font-size: 24rpx;
+  color: #cccccc;
+  margin-left: 14rpx;
+}
+
+.icon-star-active {
+  font-size: 24rpx;
+  color: #ff9800;
+  margin-left: 14rpx;
+}
+
+.icon-star-lg {
+  font-size: 40rpx;
+  color: #cccccc;
+}
+
+.icon-star-active-lg {
+  font-size: 40rpx;
+  color: #ff9800;
+}
+
+.input-num {
+  text-align: center;
+  width: 80rpx;
+}

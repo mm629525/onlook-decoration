@@ -1,0 +1,6 @@
+<view class="loading" wx:if="{{!isHide}}">
+  <text>正在加载...</text>
+</view>
+<view class="loading" wx:if="{{isHide}}" hidden="{{content===''}}">
+  <text>{{content}}</text>
+</view>

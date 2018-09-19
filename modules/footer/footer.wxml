@@ -1,0 +1,5 @@
+<navigator url="/pages/support/support" hover-class="none" class="footer">
+  <image src="/img/icon-footer-support.png" mode="widthFix" lazy-load class="footer-logo"></image>
+  <text space="nbsp">由嗨 · 装提供技术支持</text>
+  <image src="/img/icon-footer-angle-right.png" mode="widthFix" lazy-load class="footer-icon"></image>
+</navigator>

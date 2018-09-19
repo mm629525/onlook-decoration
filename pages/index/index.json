@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "发现",
+  "usingComponents": {
+    "flex": "/components/flex/flex",
+    "img": "/components/img/img",
+    "avatar": "/components/avatar/avatar",
+    "txt": "/components/txt/txt"
+  }
+}

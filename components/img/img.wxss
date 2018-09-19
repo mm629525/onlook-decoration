@@ -1,0 +1,9 @@
+.fullwidth {
+  width: 100%;
+}
+
+.img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

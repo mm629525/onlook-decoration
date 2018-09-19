@@ -1,0 +1,3 @@
+<view class="img-box" style="height: {{size}}rpx;width: {{size}}rpx; {{marginStr===''?'':'margin:'+marginStr+';'}} {{paddingStr===''?'':'padding:'+paddingStr+';'}}">
+  <image src="{{src}}" mode="aspectFill" lazy-load class="avatar" style="height: {{size}}rpx;width: {{size}}rpx;"></image>
+</view>

@@ -1,0 +1,4 @@
+<view class="flex {{col?'col':''}} {{row}} {{column}} {{nowrap?'nowrap':''}} {{divider?'divider':''}}" style="{{height>0?'height:'+height+'rpx;':''}} {{width>0?'width:'+width+'rpx;':''}} {{marginStr===''?'':'margin:'+marginStr+';'}} {{paddingStr===''?'':'padding:'+paddingStr+';'}}  {{radiusStr===''?'':'border-radius:'+radiusStr+';'}} background-color:{{bgColor}};opacity: {{opacity}};"
+  bindtap="onTap" hidden="{{isHide}}">
+  <slot></slot>
+</view>
